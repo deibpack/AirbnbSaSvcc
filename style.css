@@ -1,0 +1,462 @@
+*{
+    font-family: "Montserrat";
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: #efefef;
+  }
+  
+  nav{
+    position:sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  border-bottom: 1px solid  #231;
+  background: #efefef;
+  z-index: 1000;
+  }
+  
+  nav .logo{
+  padding: 16px 20px;
+  height: 80px;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FF5A5F;
+  
+  
+  
+  
+  }
+  
+  nav ul{
+  
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+  
+  
+  
+  
+  }
+  
+  nav ul li a{
+  
+    color: #FF5A5F;
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  
+  
+  
+  
+  }
+  
+  nav ul li a:hover {
+    background: #FF5A5F;
+    border-radius: 6px;
+    color: #efefef;
+  }
+  
+  .nav ul li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #efefef;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #FF5A5F;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #FF5A5F;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
+  h2{
+    color:  #FF5A5F;
+    border-radius: 15px;
+    background-color:  #efefef;
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+    width: 35%; /* or any other width */
+    margin: 0 auto;
+    box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+    border: none;
+  
+  }
+  
+  
+  
+  
+  
+  h2:hover{
+  box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+  background-color: #FF5A5F;
+  color: #efefef;
+  }
+  
+  
+  h3{
+  justify-content: center;
+  display: flex;
+  color:#FF5A5F;
+  
+  }
+  .container{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; 
+  padding-top: 20px; 
+  }
+  
+  
+  
+  
+  
+  
+  
+  .gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+  
+  }
+  
+  .img-box{
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  background: url(images/aa.webp);
+  background-position: center; 
+  transition: width 0.5s;
+  position: relative;
+  box-shadow: inset 0px -70px 25px 0px rgba(0, 0, 0.5, 0.5); 
+  }
+  .img-box:nth-child(2){
+  background: url(images/bb.webp);
+  background-size: cover;
+  background-position: center;
+  
+  
+  }
+  .img-box:nth-child(3){
+    background: url(images/cc.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .img-box:nth-child(4){
+    background: url(images/dd.webp);
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .img-box:nth-child(5){
+    background: url(images/ee.webp);
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  .img-box:nth-child(6){
+    background: url(images/ff.webp);
+    background-size: cover;
+    background-position: center;
+    
+    
+  }
+  
+  
+  
+  .img-box h4{
+    color: #efefef;
+    position: absolute;
+    bottom: 0;
+    left:30px;
+    font-weight:500;
+  
+  }
+  
+  .img-box:hover {
+  width: 700px;
+  cursor: pointer;
+  }
+  
+  
+  
+  .mg-box{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background: url(images/aa.webp);
+    background-position: center; 
+    transition: width 0.5s;
+    position: relative;
+    box-shadow: inset 0px -70px 25px 0px rgba(0, 0, 0.5, 0.5); 
+    }
+  
+    .mg-box:nth-child(2){
+      background: url(images/a1.webp);
+      background-size: cover;
+      background-position: center;
+      
+      
+      }
+      .mg-box:nth-child(3){
+        background: url(images/a2.webp);
+        background-size: cover;
+        background-position: center;
+        
+        
+      }
+      .mg-box:nth-child(4){
+        background: url(images/a3.jpeg);
+        background-size: cover;
+        background-position: center;
+        
+        
+      }
+      .mg-box:nth-child(5){
+        background: url(images/a4.webp);
+        background-size: cover;
+        background-position: center;
+        
+        
+      }
+      .mg-box:nth-child(6){
+        background: url(images/ff.webp);
+        background-size: cover;
+        background-position: center;
+        
+      }
+  
+      .mg-box h4{
+        color: #efefef;
+        position: absolute;
+        bottom: 0;
+        left:30px;
+        font-weight:bold;
+      }
+  
+  
+      .boxi {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0; 
+    }
+    
+    .box {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background: #FF5A5F;
+        border-radius: 30px;
+        transition: width 0.4s; 
+    
+    }
+    
+    .box:hover input {
+        background: #FF5A5F;
+        width: 240px; 
+    
+    }
+    
+    .box input {
+        width: 0; 
+        outline: none;
+        border: none;
+        font-weight: 500;
+        transition: width 0.7s;
+        background: transparent;
+        color: white;
+        font-size: large;
+    }
+    
+    .box a {
+        color: #ffff; 
+        font-size: 18px;
+        margin-left: 10px; 
+    }
+    
+    
+    .box input::placeholder {
+        color: white; 
+         opacity: 0.7; 
+        }
+    
+  
+    .options{
+      display: flexbox;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+  
+    }
+  
+    .pilian{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      
+      
+      
+      
+      }
+  
+    .mountain{
+      color:  #FF5A5F;
+      border-radius: 15px;
+      background-color:  #efefef;
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+      font-size: 25px;
+      width: 300px;
+      height: 100px;
+      padding: 25px;
+    }
+  
+    .building{
+      color:  #FF5A5F;
+      border-radius: 15px;
+      background-color:  #efefef;
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+      font-size: 25px;
+      width: 300px;
+      height: 100px;
+      padding: 25px;
+    }
+  
+  
+    .castle{
+  
+      color:  #FF5A5F;
+      border-radius: 15px;
+      background-color:  #efefef;
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+      font-size: 25px;
+      width: 300px;
+      height: 100px;
+      padding: 25px;
+    
+    }
+    .malamig{
+  
+      color:  #FF5A5F;
+      border-radius: 15px;
+      background-color:  #efefef;
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+      font-size: 25px;
+      width: 300px;
+      height: 100px;
+      padding: 25px;
+    }
+  
+    .beach{
+  
+      color:  #FF5A5F;
+      border-radius: 15px;
+      background-color:  #efefef;
+      display:flex;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+      font-size: 25px;
+      width: 300px;
+      height: 100px;
+      padding: 25px;
+    }
+  
+  
+  
+  
+    .mountain:hover {
+        box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+        background-color: #FF5A5F;
+        color: #efefef;
+    }
+  
+    .building:hover{
+      box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+      background-color: #FF5A5F;
+      color: #efefef;
+    }
+    .castle:hover{
+        box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+        background-color: #FF5A5F;
+        color: #efefef;
+      }
+    
+    .malamig:hover{
+        box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+        background-color: #FF5A5F;
+        color: #efefef;
+      }
+  
+  
+  
+    .beach:hover{
+      box-shadow: 2px 2px 10px #f9f9f9, -2px -2px 10px #000026;
+      background-color: #FF5A5F;
+      color: #efefef;
+    }  
