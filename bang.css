@@ -1,0 +1,310 @@
+*{
+    font-family: "Montserrat";
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: #efefef;
+  }
+  
+  
+  
+  
+  .imggrid{
+  
+  --gap: 16px;
+  --num-cols:4;
+  --row-height:300px;
+  
+  
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols),1fr);
+  grid-auto-rows: var(--row-height);
+  gap:var(--gap);
+  margin: 40px;
+  }
+  .imggrid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px ;
+  }
+  .imggridcols{
+  grid-column: span 2 ;
+  }
+  .imggridrows{
+  grid-row: span 2 ;
+  }
+  .h3{
+  font-weight: bold ;
+  font-size: 35px;
+  margin-left: 60px;
+  
+  }
+  
+  .st{
+  
+  font-size: 30px;
+  margin-left: 60px;
+  font-weight: bold;
+  }
+  
+  .gf{
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: bold;
+  
+  }
+  
+  
+  .pantay{
+  
+  display: flex;
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .divbox{
+  height: 115px;
+  width: 30%;
+  border-style:solid;
+  border-radius: 15px;
+  margin-left: 60px;
+  border-color: black;
+  border-width: 2px;
+  
+  
+  }
+  .boxgest{
+  padding-left: 10px;
+  padding-top: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  
+  
+  
+  }
+  
+  .sulat{
+  padding-top: 13px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  
+  }
+  
+  .bowks{
+  
+    margin-top: 0%;;
+    width: 50%;
+    box-sizing: border-box;
+  justify-content: center;   
+  border-style: solid;
+  margin-left: 25%;
+  height: 300px;
+  border-radius: 15px;
+  border-width: 2px;
+  margin-right: 55px;
+  
+  
+  
+  
+  
+  
+  }
+  
+  .setsched {
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-right: 5px;
+  }
+  
+  
+  
+  .checkin input[type="date"] {
+  background-color: #FF5A5F;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #efefef;
+  font-family: Montserrat;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  }
+  
+  .checkin input[type="date"]:hover {
+    background-color: #efefef;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #FF5A5F;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    }
+  
+  
+  
+  
+  .checkout input[type="date"]{
+  background-color: #FF5A5F;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #efefef;
+  font-family: Montserrat;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  
+  }
+  
+    .checkout input[type="date"]:hover {
+      background-color: #efefef;
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 10px;
+      color: #FF5A5F;
+      font-family: Montserrat;
+      margin-bottom: 0px;
+      margin-right: 20px;
+      }
+  
+  
+  
+  
+  .checkin input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #efefef;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  
+  .checkin input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: #FF5A5F;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  .checkout input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: #FF5A5F;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+  
+  
+  
+  .checkout input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #efefef;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+  
+  .ilan input[type="number"]{
+  
+  background-color: #FF5A5F;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #efefef;
+  font-family: Montserrat;
+  margin-bottom: 0px;
+  height: 64px;
+  
+  
+  }
+  
+  
+  
+  .ilan input[type="number"]:hover{
+  
+    background-color: #efefef;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #FF5A5F;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+    height: 64px;
+    
+    
+    }
+  
+  .baba{
+  
+  display: flex;
+  justify-content: center;
+  
+  
+  }
+  
+  .price{
+  font-size: 25px;
+  padding-top:30px ;
+  
+  
+  
+  
+  }
+  
+  .night{
+  
+  margin-left: 5px;
+  padding-top: 35px;
+  font-size: 15px;
+  
+  }
+  
+  .pindot {
+    
+    text-align: center;
+  }
+  button{
+  
+  
+    background-color: #FF5A5F;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    text-align: center;
+    color: #efefef;
+    font-weight: bold;
+    
+  }
+  button:hover{
+  
+  
+    background-color: #efefef;
+    color: #FF5A5F;
+  
+    
+  }
