@@ -1,0 +1,247 @@
+*{
+    font-family: "Montserrat";
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: #efefef;
+  }
+  
+  
+  
+  
+
+  .h3{
+  font-weight: bold ;
+  font-size: 35px;
+  margin-left: 60px;
+  
+  }
+  
+  .st{
+  
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: 500;
+  }
+  
+  .gf{
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: 500;
+  
+  }
+  
+.stxt{
+
+font-weight: 500;
+font-size: 17px;
+
+
+
+}
+.bayad {
+    display: flex;
+
+
+
+
+}
+
+.pbox{
+
+    box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+
+    width: 1000px;
+    border-radius: 15px;
+    height: 700px;
+    margin-left: 60px;
+
+
+
+
+
+    
+}
+
+.hid{
+width: 100%;
+height: 100px;
+
+}
+  
+ .bord{
+width: 10px;
+height: 100px;
+
+
+
+
+ } 
+
+
+.hid{
+    display: flex;
+
+width: 30%;
+height: 170px ;
+background-color: #efefef;
+padding-top: 10px;
+padding-left: 10px ;
+border-radius: 15px;
+box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+
+margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pauna{
+
+
+
+
+    height: 150px;
+    border-radius: 15px;
+
+
+
+
+
+
+}  
+  
+.finalprev{
+font-size: 20px;
+font-weight: 500;
+padding-left: 10px;
+
+
+
+}  
+  
+*{
+    font-family: Montserrat;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    }
+    
+    
+    .ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background-color: #efefef;
+    padding-bottom: 70px;
+    }
+    
+    .ct form{
+    
+        padding:20px;
+        width: 700px;
+        background: #efefef;
+        box-shadow: -2px -2px 10px #f9f9f9,2px 2px 10px #000026;
+        
+    }
+    
+    
+    .ct form .rows{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .ct form .rows .cols {
+    
+        flex:1 1 250px;
+    
+    }
+    
+    
+    .ct form .rows .cols .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    
+    
+    
+    }
+    
+    .ct form .rows .cols .inputBox{
+    margin: 15px 0;
+    
+    }
+    
+    .ct form .rows .cols .inputBox span{
+    margin-bottom: 10px;
+    display: block;    
+        }
+    
+    
+    .ct form .rows .cols .inputBox input{
+        width: 100%;
+        border:1px solid #ccc;
+        padding: 10px 15px;
+        font-size: 15px;
+        text-transform: none;
+    
+        }    
+    
+        .ct form .rows .cols .inputBox input:focus{
+    border: 1px solid #000;
+    
+    }    
+    
+    .ct form .rows .cols .flex .inputBox {
+    
+    
+    
+    
+        margin-top: 5px;
+        
+    }
+    
+    .ct form .rows .cols .flex .inputBox img{
+    
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+    
+    }
+    
+    .ct form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: FF5A5F;
+    color: #efefef;
+    margin-top: 5px;
+    cursor: pointer;
+    
+    
+    }
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
