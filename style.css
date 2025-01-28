@@ -175,7 +175,7 @@ justify-content: center;
   }
   
   .img-box2{
-  background: url();
+  background: url(images/bb.webp);
   width: 300px;
   height: 500px;
   margin: 10px;
@@ -188,7 +188,7 @@ justify-content: center;
   
   }
   .img-box3{
-  background: url();
+  background: url(images/c.webp);
   width: 300px;
   height: 500px;
   margin: 10px;
@@ -200,7 +200,7 @@ justify-content: center;
   box-shadow: inset 0px -70px 25px 0px rgba(0, 0, 0.5, 0.5); 
   }
   .img-box4{
-  background: url();
+  background: url(images/d.webp);
   width: 300px;
   height: 500px;
   margin: 10px;
